@@ -1,0 +1,116 @@
+@font-face{
+    font-family: Great Vibes;
+    src: url(../fonts/GreatVibes-Regular.ttf);
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+body{
+     background: linear-gradient(217deg, rgba(241, 97, 97, 0.8), rgba(255,0,0,0) 70.71%);
+     margin: 0%;
+}
+.bodyContainer{
+    margin-left: 80px;
+    margin-right: 70px;
+    background: black;
+    height:80%
+}
+
+header{
+    color: white;
+    display: flex;
+    height: 90px;
+    justify-content: space-between;
+    margin: 50px;  
+ 
+}
+.logo{
+    display: flex;
+    width:300px;   
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+.logo h1{
+    font-size: 22px;
+    margin-right: 90px;
+    font-family: Great Vibes,cursive,serif;
+    font-weight: bold;
+    text-shadow: 2px 2px green;
+    
+}
+.logoImg{
+    width: 100px;
+    height: 30px;
+    
+}
+.logoImg img{
+    width: 80px;
+}.nav{
+    height: 500px;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    padding-right: 150px;
+    padding-top: 30px;
+
+}
+ul li{
+    color: antiquewhite;
+    font-weight: bold; 
+
+}
+
+ul a{
+   list-style-type: none;
+   text-decoration: none;
+}
+ nav li a:hover{
+    color: #ff0000;   
+}
+
+.whoWeAre{
+    color:black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* border: 2px red solid; */
+    border-radius: 5px;
+    width: 50%;
+    margin-left: 393px;
+    background-color: bisque;
+}
+.aboutUsImg{
+    width: 50%;
+    height:80px;
+    /* margin-bottom: 30px; */
+}
+.aboutUsImg img{
+    width: 400px;
+    object-fit: cover;
+    margin-left: 40px;
+   
+}
+.whoWeAre p{
+   margin-left: 50px;
+   margin-right: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+footer{
+    height: 50px;
+    background-color: black;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+footer p{
+    font-size: 20px;
+    color: white
+}
+
